@@ -406,7 +406,6 @@ const StorkCodeLP = () => {
 
              {/* Plano 2 */}
              <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-gold flex flex-col relative transform md:-translate-y-4">
-                <div className="absolute top-0 right-0 bg-gold text-deepBlue text-xs font-bold px-3 py-1 uppercase">Recomendado</div>
                 <div className="bg-deepBlue p-6">
                    <h3 className="text-white font-bold text-xl">Squad Dedicada</h3>
                    <div className="mt-2 text-gold text-2xl font-bold">R$ 5.000<span className="text-sm text-gray-400 font-normal">/mês</span></div>
