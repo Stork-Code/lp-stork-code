@@ -461,7 +461,7 @@ const StorkCodeLP = () => {
               Entre em contato com a Stork Code
             </a>
             
-            <a href="https://storkcode.com.br" target="_blank" rel="noopener noreferrer" className="text-graphite hover:text-white transition-colors flex items-center gap-2 border-b border-transparent hover:border-white pb-1">
+            <a href="https://www.instagram.com/stork_code/" target="_blank" rel="noopener noreferrer" className="text-graphite hover:text-white transition-colors flex items-center gap-2 border-b border-transparent hover:border-white pb-1">
               Siga nas redes sociais <ArrowRight size={16}/>
             </a>
           </div>
