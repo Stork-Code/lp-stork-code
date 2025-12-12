@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Code, Shield, Layers, Server, ArrowRight, CheckCircle, Database, Cpu, Users, Zap, Terminal, Globe, ChevronRight } from 'lucide-react';
 
+import logoImg from '@assets/stork-logo.png';
+
 const StorkCodeLP = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -23,12 +25,7 @@ const StorkCodeLP = () => {
 
   // Logo Component replacement for "Padrão.png"
   const Logo = () => (
-    <div className="flex items-center gap-2 font-heading font-bold text-xl tracking-tight text-white">
-      <div className="w-8 h-8 bg-gold rounded-lg flex items-center justify-center text-deepBlue">
-        <Code size={20} strokeWidth={3} />
-      </div>
-      <span>Stork Code</span>
-    </div>
+    <img src={logoImg} alt="Stork Code" className="h-12 w-auto object-contain" />
   );
 
   // Componente de Fundo Abstrato (Tech Lines)
