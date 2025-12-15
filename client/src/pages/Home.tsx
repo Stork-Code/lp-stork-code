@@ -427,25 +427,6 @@ const StorkCodeLP = () => {
         </div>
       </section>
 
-      {/* SECTION 8: PROVA SOCIAL / FOUNDER */}
-      <section className="py-24 bg-white">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <div className="mb-8">
-             <div className="w-24 h-24 bg-gray-200 rounded-full mx-auto overflow-hidden mb-4 border-2 border-gold">
-                {/* Placeholder para foto do fundador */}
-                <div className="w-full h-full flex items-center justify-center bg-deepBlue text-white text-3xl font-bold">RS</div>
-             </div>
-             <p className="text-xl md:text-2xl font-heading text-deepBlue font-bold italic">
-               "Tecnologia não deve limitar empresas. Deve impulsioná-las."
-             </p>
-             <div className="mt-4">
-               <p className="font-bold text-deepBlue">Rafael Sedor</p>
-               <p className="text-sm text-gray-500 uppercase tracking-wide">Fundador da Stork Code</p>
-             </div>
-          </div>
-        </div>
-      </section>
-
       {/* SECTION 9: CTA FINAL */}
       <section id="contato" className="py-24 bg-deepBlue relative overflow-hidden">
         <div className="absolute inset-0 bg-navy/20"></div>
