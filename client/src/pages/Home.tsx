@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Code, Shield, Layers, Server, ArrowRight, CheckCircle, Database, Cpu, Users, Zap, Terminal, Globe, ChevronRight } from 'lucide-react';
 
 import logoImg from '@assets/stork-logo.png';
+import lockIllustration from '@assets/generated_images/abstract_3d_lock_illustration.png';
 
 const StorkCodeLP = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -164,18 +165,7 @@ const StorkCodeLP = () => {
             {/* Visual da Dor (Abstract Barrier) */}
             <div className="relative order-2 md:order-1">
               <div className="aspect-square bg-gray-50 rounded-2xl overflow-hidden relative border border-gray-200">
-                <div className="absolute inset-0 flex items-center justify-center opacity-10">
-                   <div className="w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-gray-400 to-transparent"></div>
-                </div>
-                {/* Cadeias/Bloqueios Abstratos */}
-                <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
-                  <div className="w-3/4 h-2 bg-gray-200 rounded-full"></div>
-                  <div className="w-3/4 h-2 bg-gray-200 rounded-full"></div>
-                  <div className="w-1/2 h-2 bg-gray-300 rounded-full"></div>
-                  <div className="w-16 h-16 border-4 border-red-400/30 rounded-full flex items-center justify-center mt-4">
-                    <X className="text-red-400/50 w-8 h-8" />
-                  </div>
-                </div>
+                <img src={lockIllustration} alt="Representação visual de bloqueio e aprisionamento tecnológico" className="w-full h-full object-cover" />
               </div>
             </div>
 
