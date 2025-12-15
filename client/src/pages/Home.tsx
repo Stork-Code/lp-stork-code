@@ -95,7 +95,6 @@ const StorkCodeLP = () => {
           </div>
         )}
       </nav>
-
       {/* SECTION 1: HERO */}
       <section className="relative min-h-screen flex items-center bg-deepBlue pt-20 overflow-hidden">
         <TechBackground />
@@ -118,7 +117,7 @@ const StorkCodeLP = () => {
               Soluções digitais feitas do zero, com qualidade técnica, documentação completa e autonomia real para sua empresa evoluir com segurança.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-6 pt-8">
+            <div className="flex flex-col sm:flex-row gap-6 pt-[17px] pb-[17px]">
               <button onClick={() => scrollToSection('contato')} className="btn-primary rounded shadow-lg text-center">
                 Fale com um especialista
               </button>
@@ -157,7 +156,6 @@ const StorkCodeLP = () => {
           </div>
         </div>
       </section>
-
       {/* SECTION 2: IDENTIFICAÇÃO COM A DOR (White Theme) */}
       <section className="py-24 bg-white relative">
         <div className="max-w-7xl mx-auto px-6">
@@ -207,7 +205,6 @@ const StorkCodeLP = () => {
           </div>
         </div>
       </section>
-
       {/* SECTION 3: A RESPOSTA (Solution) */}
       <section id="solucao" className="py-24 bg-deepBlue relative overflow-hidden">
         {/* Background Gradients */}
@@ -250,7 +247,6 @@ const StorkCodeLP = () => {
           </div>
         </div>
       </section>
-
       {/* SECTION 4: SERVIÇOS */}
       <section id="servicos" className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
@@ -306,7 +302,6 @@ const StorkCodeLP = () => {
            </div>
         </div>
       </section>
-
       {/* SECTION 5: PROCESSO */}
       <section id="processo" className="py-24 bg-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6">
@@ -342,7 +337,6 @@ const StorkCodeLP = () => {
           </div>
         </div>
       </section>
-
       {/* SECTION 6: DIFERENCIAIS */}
       <section id="diferenciais" className="py-24 bg-deepBlue">
         <div className="max-w-7xl mx-auto px-6">
@@ -372,7 +366,6 @@ const StorkCodeLP = () => {
            </div>
         </div>
       </section>
-
       {/* SECTION 7: PLANOS (Optional) */}
       <section id="planos" className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
@@ -426,7 +419,6 @@ const StorkCodeLP = () => {
           </div>
         </div>
       </section>
-
       {/* SECTION 9: CTA FINAL */}
       <section id="contato" className="py-24 bg-deepBlue relative overflow-hidden">
         <div className="absolute inset-0 bg-navy/20"></div>
@@ -448,7 +440,6 @@ const StorkCodeLP = () => {
           </div>
         </div>
       </section>
-
       {/* FOOTER */}
       <footer className="bg-[#050c16] py-12 border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
