@@ -118,7 +118,7 @@ const StorkCodeLP = () => {
               Soluções digitais feitas do zero, com qualidade técnica, documentação completa e autonomia real para sua empresa evoluir com segurança.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-6 pt-8">
               <button onClick={() => scrollToSection('contato')} className="btn-primary rounded shadow-lg text-center">
                 Fale com um especialista
               </button>
