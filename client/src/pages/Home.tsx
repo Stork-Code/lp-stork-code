@@ -376,19 +376,19 @@ const StorkCodeLP = () => {
         </div>
       </section>
       {/* FOOTER */}
-      <footer className="bg-white py-12 border-t border-gray-200">
+      <footer className="bg-deepBlue py-12 border-t border-navy">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
            <div className="flex items-center">
               <Logo />
            </div>
            
-           <div className="text-gray-600 text-sm font-body">
+           <div className="text-gray-500 text-sm font-body">
              © {new Date().getFullYear()} Stork Code. Todos os direitos reservados.
            </div>
 
            <div className="flex gap-6">
-             <a href="#" className="text-gray-600 hover:text-navy transition-colors text-sm">Termos</a>
-             <a href="#" className="text-gray-600 hover:text-navy transition-colors text-sm">Privacidade</a>
+             <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">Termos</a>
+             <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">Privacidade</a>
            </div>
         </div>
       </footer>
