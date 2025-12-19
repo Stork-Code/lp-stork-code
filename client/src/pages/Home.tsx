@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Code, Shield, Layers, Server, ArrowRight, CheckCircle, Database, Cpu, Users, Zap, Terminal, Globe, ChevronRight, Instagram } from 'lucide-react';
 
 import logoImg from '@assets/stork-logo.png';
-import lockIllustration from '@assets/generated_images/abstract_3d_lock_illustration.png';
+import lockIllustration from '@assets/LP_image_liberty.png';
 
 const StorkCodeLP = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
