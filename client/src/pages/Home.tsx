@@ -358,7 +358,7 @@ const StorkCodeLP = () => {
       </section>
       
       {/* SECTION 9: CTA FINAL */}
-      <section id="contato" className="py-24 bg-deepBlue relative overflow-hidden">
+      <section id="contato" className="py-24 bg-navy relative overflow-hidden">
         <div className="absolute inset-0 bg-navy/20"></div>
         <div className="absolute -right-20 -bottom-20 w-96 h-96 bg-gold/10 rounded-full blur-[80px]"></div>
 
@@ -379,7 +379,7 @@ const StorkCodeLP = () => {
         </div>
       </section>
       {/* FOOTER */}
-      <footer className="bg-[#050c16] py-12 border-t border-gray-800">
+      <footer className="bg-deepBlue py-12 border-t border-navy">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
            <div className="flex items-center">
               <Logo />
