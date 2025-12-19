@@ -58,7 +58,7 @@ const StorkCodeLP = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            {['Solução', 'Serviços', 'Processo', 'Diferenciais', 'Planos'].map((item) => (
+            {['Solução', 'Serviços', 'Processo', 'Diferenciais'].map((item) => (
               <button 
                 key={item} 
                 onClick={() => scrollToSection(item.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""))}
@@ -83,7 +83,7 @@ const StorkCodeLP = () => {
         {/* Mobile Menu Dropdown */}
         {isMenuOpen && (
           <div className="md:hidden absolute top-full left-0 w-full bg-deepBlue border-t border-gray-800 p-6 flex flex-col space-y-4 shadow-xl">
-             {['Solução', 'Serviços', 'Processo', 'Diferenciais', 'Planos'].map((item) => (
+             {['Solução', 'Serviços', 'Processo', 'Diferenciais'].map((item) => (
               <button 
                 key={item} 
                 onClick={() => scrollToSection(item.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""))}
@@ -356,59 +356,7 @@ const StorkCodeLP = () => {
            </div>
         </div>
       </section>
-      {/* SECTION 7: PLANOS (Optional) */}
-      <section id="planos" className="py-24 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-             <h2 className="text-3xl md:text-4xl font-heading font-bold text-deepBlue">Soluções Contínuas</h2>
-             <p className="text-gray-600 mt-4">Para quem busca tranquilidade técnica a longo prazo</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-             {/* Plano 1 */}
-             <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 flex flex-col">
-                <div className="bg-deepBlue p-6">
-                   <h3 className="text-white font-bold text-xl">Hospedagem & Suporte</h3>
-                   <div className="mt-2 text-gold text-2xl font-bold">
-                     R$ 1.000<span className="text-sm text-gray-400 font-normal">/mês</span>
-                   </div>
-                </div>
-                <div className="p-8 flex-1 flex flex-col">
-                  <p className="text-gray-600 text-sm mb-6 flex-1">
-                    Hospedagem profissional em Data Center Tier III, servidores escaláveis, backup diário e manutenção técnica contínua.
-                  </p>
-                  <ul className="space-y-3 mb-8">
-                    <li className="flex items-center gap-2 text-sm text-deepBlue"><CheckCircle size={16} className="text-green-500"/> Suporte Técnico</li>
-                    <li className="flex items-center gap-2 text-sm text-deepBlue"><CheckCircle size={16} className="text-green-500"/> Backups Diários</li>
-                    <li className="flex items-center gap-2 text-sm text-deepBlue"><CheckCircle size={16} className="text-green-500"/> Ajustes pontuais</li>
-                  </ul>
-                  <div className="text-xs text-gray-400 mb-4 text-center">Contrato mínimo: 6 meses • Implantação: R$ 1.000</div>
-                  <button onClick={() => scrollToSection('contato')} className="w-full py-3 border border-deepBlue text-deepBlue font-bold rounded hover:bg-deepBlue hover:text-white transition-colors uppercase text-sm">Contratar</button>
-                </div>
-             </div>
-
-             {/* Plano 2 */}
-             <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-gold flex flex-col relative">
-                <div className="bg-deepBlue p-6">
-                   <h3 className="text-white font-bold text-xl">Squad Dedicada</h3>
-                   <div className="mt-2 text-gold text-2xl font-bold">R$ 5.000<span className="text-sm text-gray-400 font-normal">/mês</span></div>
-                </div>
-                <div className="p-8 flex-1 flex flex-col">
-                  <p className="text-gray-600 text-sm mb-6 flex-1">
-                    Equipe gerenciada de Frontend, Backend e DevOps mantendo seu sistema evoluindo constantemente com novas features.
-                  </p>
-                   <ul className="space-y-3 mb-8">
-                    <li className="flex items-center gap-2 text-sm text-deepBlue"><CheckCircle size={16} className="text-gold"/> Evolução contínua</li>
-                    <li className="flex items-center gap-2 text-sm text-deepBlue"><CheckCircle size={16} className="text-gold"/> Frontend + Backend</li>
-                    <li className="flex items-center gap-2 text-sm text-deepBlue"><CheckCircle size={16} className="text-gold"/> Gestão de DevOps</li>
-                  </ul>
-                  <div className="text-xs text-gray-400 mb-4 text-center">Contrato mínimo: 6 meses</div>
-                  <button onClick={() => scrollToSection('contato')} className="w-full py-3 bg-gold text-deepBlue font-bold rounded hover:shadow-lg transition-all uppercase text-sm">Contratar Squad</button>
-                </div>
-             </div>
-          </div>
-        </div>
-      </section>
+      
       {/* SECTION 9: CTA FINAL */}
       <section id="contato" className="py-24 bg-deepBlue relative overflow-hidden">
         <div className="absolute inset-0 bg-navy/20"></div>
