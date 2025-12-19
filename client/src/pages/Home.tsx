@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Code, Shield, Layers, Server, ArrowRight, CheckCircle, Database, Cpu, Users, Zap, Terminal, Globe, ChevronRight } from 'lucide-react';
+import { Menu, X, Code, Shield, Layers, Server, ArrowRight, CheckCircle, Database, Cpu, Users, Zap, Terminal, Globe, ChevronRight, Instagram } from 'lucide-react';
 
 import logoImg from '@assets/stork-logo.png';
 import lockIllustration from '@assets/generated_images/abstract_3d_lock_illustration.png';
@@ -368,10 +368,6 @@ const StorkCodeLP = () => {
             <a href="https://wa.me/42988284772?text=olá%2C%20vim%20pela%20sua%20LP%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20soluções%20que%20oferece%20para%20o%20meu%20negócio" target="_blank" rel="noopener noreferrer" className="btn-primary rounded-lg text-lg px-12 py-4 shadow-lg">
               Entre em contato com a Stork Code
             </a>
-            
-            <a href="https://www.instagram.com/stork_code/" target="_blank" rel="noopener noreferrer" className="text-navy hover:text-gold transition-colors flex items-center gap-2 border-b border-transparent hover:border-gold pb-1">
-              Siga nas redes sociais <ArrowRight size={16}/>
-            </a>
           </div>
         </div>
       </section>
@@ -386,9 +382,12 @@ const StorkCodeLP = () => {
              © {new Date().getFullYear()} Stork Code. Todos os direitos reservados.
            </div>
 
-           <div className="flex gap-6">
+           <div className="flex gap-6 items-center">
              <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">Termos</a>
              <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">Privacidade</a>
+             <a href="https://www.instagram.com/stork_code/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors">
+               <Instagram size={20} />
+             </a>
            </div>
         </div>
       </footer>
