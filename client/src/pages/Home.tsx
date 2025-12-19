@@ -365,7 +365,7 @@ const StorkCodeLP = () => {
           </h2>
           
           <div className="flex flex-col items-center gap-6 pt-6">
-            <a href="mailto:contato@storkcode.com.br" className="btn-primary rounded-lg text-lg px-12 py-4 shadow-lg">
+            <a href="https://wa.me/42988284772?text=olá%2C%20vim%20pela%20sua%20LP%20e%20gostaria%20de%20saber%20mais%20sobre%20as%20soluções%20que%20oferece%20para%20o%20meu%20negócio" target="_blank" rel="noopener noreferrer" className="btn-primary rounded-lg text-lg px-12 py-4 shadow-lg">
               Entre em contato com a Stork Code
             </a>
             
