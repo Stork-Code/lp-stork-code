@@ -358,40 +358,37 @@ const StorkCodeLP = () => {
       </section>
       
       {/* SECTION 9: CTA FINAL */}
-      <section id="contato" className="py-24 bg-navy relative overflow-hidden">
-        <div className="absolute inset-0 bg-navy/20"></div>
-        <div className="absolute -right-20 -bottom-20 w-96 h-96 bg-gold/10 rounded-full blur-[80px]"></div>
-
+      <section id="contato" className="py-24 bg-white relative overflow-hidden">
         <div className="max-w-4xl mx-auto px-6 relative z-10 text-center space-y-8">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-white leading-tight">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-deepBlue leading-tight">
             Pronto para construir tecnologia que <br/> fortalece o futuro do seu negócio?
           </h2>
           
           <div className="flex flex-col items-center gap-6 pt-6">
-            <a href="mailto:contato@storkcode.com.br" className="btn-primary rounded-lg text-lg px-12 py-4 shadow-[0_0_20px_rgba(255,202,36,0.3)]">
+            <a href="mailto:contato@storkcode.com.br" className="btn-primary rounded-lg text-lg px-12 py-4 shadow-lg">
               Entre em contato com a Stork Code
             </a>
             
-            <a href="https://www.instagram.com/stork_code/" target="_blank" rel="noopener noreferrer" className="text-graphite hover:text-white transition-colors flex items-center gap-2 border-b border-transparent hover:border-white pb-1">
+            <a href="https://www.instagram.com/stork_code/" target="_blank" rel="noopener noreferrer" className="text-navy hover:text-gold transition-colors flex items-center gap-2 border-b border-transparent hover:border-gold pb-1">
               Siga nas redes sociais <ArrowRight size={16}/>
             </a>
           </div>
         </div>
       </section>
       {/* FOOTER */}
-      <footer className="bg-deepBlue py-12 border-t border-navy">
+      <footer className="bg-white py-12 border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
            <div className="flex items-center">
               <Logo />
            </div>
            
-           <div className="text-gray-500 text-sm font-body">
+           <div className="text-gray-600 text-sm font-body">
              © {new Date().getFullYear()} Stork Code. Todos os direitos reservados.
            </div>
 
            <div className="flex gap-6">
-             <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">Termos</a>
-             <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">Privacidade</a>
+             <a href="#" className="text-gray-600 hover:text-navy transition-colors text-sm">Termos</a>
+             <a href="#" className="text-gray-600 hover:text-navy transition-colors text-sm">Privacidade</a>
            </div>
         </div>
       </footer>
