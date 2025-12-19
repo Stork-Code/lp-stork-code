@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Code, Shield, Layers, Server, ArrowRight, CheckCircle, Database, Cpu, Users, Zap, Terminal, Globe, ChevronRight, Instagram } from 'lucide-react';
+import { Menu, X, Code, Shield, Layers, Server, ArrowRight, CheckCircle, Database, Cpu, Users, Zap, Terminal, Globe, ChevronRight, ChevronDown, Instagram } from 'lucide-react';
 
 import logoImg from '@assets/stork-logo.png';
 import lockIllustration from '@assets/LP_image_liberty.png';
@@ -120,13 +120,22 @@ const StorkCodeLP = () => {
               Soluções digitais feitas do zero, com qualidade técnica, documentação completa e autonomia real para sua empresa evoluir com segurança.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-6 pt-[17px] pb-[17px]">
+            <div className="flex flex-col sm:flex-row gap-6 pt-[10px]">
               <button onClick={() => scrollToSection('contato')} className="btn-primary rounded shadow-lg text-center">
                 Fale com um especialista
               </button>
               <button onClick={() => scrollToSection('processo')} className="btn-secondary rounded text-center">
                 Conheça como trabalhamos
               </button>
+            </div>
+
+            {/* Scroll Indicator - Mobile optimized */}
+            <div className="flex flex-col items-center md:items-start gap-2 pt-8 md:hidden">
+              <p className="text-graphite/70 text-sm font-body">Role para saber mais</p>
+              <ChevronDown
+                className="text-gold w-8 h-8 animate-bounce"
+                strokeWidth={2.5}
+              />
             </div>
           </div>
 
