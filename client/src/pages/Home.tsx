@@ -26,7 +26,9 @@ const StorkCodeLP = () => {
 
   // Logo Component replacement for "Padrão.png"
   const Logo = () => (
-    <img src={logoImg} alt="Stork Code" className="h-12 w-auto object-contain" />
+    <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="cursor-pointer hover:opacity-80 transition-opacity">
+      <img src={logoImg} alt="Stork Code" className="h-12 w-auto object-contain" />
+    </button>
   );
 
   // Componente de Fundo Abstrato (Tech Lines)
