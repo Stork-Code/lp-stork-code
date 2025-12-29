@@ -188,15 +188,15 @@ const StorkCodeLP = () => {
               <div className="space-y-4 font-body text-gray-600 text-lg">
                 <p className="flex items-start gap-3">
                   <span className="text-navy mt-1"><ChevronRight size={20}/></span>
-                  Talvez cada melhoria custe caro.
+                  Toda melhoria que você quer custa caro demais.
                 </p>
                 <p className="flex items-start gap-3">
                    <span className="text-navy mt-1"><ChevronRight size={20}/></span>
-                  Talvez cada ajuste demore.
+                  Rodadas de ajuste infinitas.
                 </p>
                 <p className="flex items-start gap-3">
                    <span className="text-navy mt-1"><ChevronRight size={20}/></span>
-                  Talvez a tecnologia pareça sua... mas quem controla o crescimento não é você.
+                  A tecnologia parece sua... mas quem controla o crescimento não é você.
                 </p>
                 <p className="text-xl font-bold text-deepBlue pt-4 border-l-4 border-gold pl-4">
                   E quando o negócio escala, o sistema não acompanha.
