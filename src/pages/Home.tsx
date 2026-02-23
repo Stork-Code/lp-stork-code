@@ -444,7 +444,7 @@ const StorkCodeLP = () => {
         </div>
       </section>
       {/* FOOTER */}
-      <footer className="bg-deepBlue py-12 border-t border-navy">
+      <footer className="bg-deepBlue py-12 pb-24 border-t border-navy">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
            <div className="flex items-center">
               <Logo />
@@ -455,8 +455,6 @@ const StorkCodeLP = () => {
            </div>
 
            <div className="flex gap-6 items-center">
-             <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">Termos</a>
-             <a href="#" className="text-gray-400 hover:text-gold transition-colors text-sm">Privacidade</a>
              <a href="https://www.instagram.com/stork_code/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gold transition-colors">
                <Instagram size={20} />
              </a>
