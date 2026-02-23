@@ -1,0 +1,20 @@
+import { AlertCircle } from "lucide-react";
+
+export default function NotFound() {
+  return (
+    <div className="min-h-screen w-full flex items-center justify-center bg-gray-50">
+      <div className="w-full max-w-md mx-4 bg-white rounded-xl shadow-lg p-8">
+        <div className="flex mb-4 gap-2 items-center">
+          <AlertCircle className="h-8 w-8 text-red-500" />
+          <h1 className="text-2xl font-bold text-gray-900">404</h1>
+        </div>
+        <p className="text-sm text-gray-600">
+          Página não encontrada.
+        </p>
+        <a href="/" className="inline-block mt-6 btn-primary rounded text-sm">
+          Voltar ao início
+        </a>
+      </div>
+    </div>
+  );
+}
